@@ -17,7 +17,7 @@ body{
 }
 
 .header-logo{
-    color:lightblue;
+    color:blue;
 }
 
 .header-list ul{
@@ -30,7 +30,7 @@ body{
 }
 
 .header-list a {
-  color: lightblue;
+  color: blue;
   text-decoration: none;
 }
 
