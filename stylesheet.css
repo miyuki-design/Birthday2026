@@ -1,4 +1,13 @@
 body{
     margin:0;
-    background-image:url(kazumori.PNG);
+    background-image:url(mobile.png);
+    min-height: 100svh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+@media(min-width: 768px){
+    body{
+        background-image:url(mobile.png);
+    }
 }
