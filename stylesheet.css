@@ -6,6 +6,31 @@ body{
     background-repeat: no-repeat;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: rgba(255, 255, 255, 0.7);
+    padding:0px 20px;
+    border-bottom:white solid 2px;
+}
+
+.header-logo{
+    color:lightblue;
+}
+
+.header-list ul{
+    display: flex;
+    gap:12px;
+}
+
+.header-list li{
+    list-style:none;
+    text-decoration: none;
+    color:lightblue;
+}
+
 @media(min-width: 768px){
     body{
         background-image:url(mobile.png);
